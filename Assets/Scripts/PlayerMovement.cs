@@ -42,4 +42,8 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime,crouch,jump);
         jump = false;
     }
+
+    void OnTriggerEnter2D(Collider2D detect) {
+        
+    }
 }
