@@ -10,7 +10,7 @@
 * Link para download do jogo: TBD
 ---------------------------------------------------------------------------------------------------
 * Links para vídeo de demonstração do jogo
-* 
+ 
 * Demo 01 (Menus Iniciais e Ato1+Boss1) : https://youtu.be/uH3PUUEmed8
 ---------------------------------------------------------------------------------------------------
 * Demo 02 (Mudanças de Nivel Boss->Ato + GameOver) : https://youtu.be/NFxCmBWbewU
