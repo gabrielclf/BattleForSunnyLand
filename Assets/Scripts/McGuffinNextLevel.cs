@@ -11,7 +11,7 @@ public class McGuffinNextLevel : MonoBehaviour
 
 
     
-    void Awake()
+    void Start()
     {
         cenaAtual = SceneManager.GetActiveScene().buildIndex;
     }

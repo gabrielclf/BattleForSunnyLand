@@ -15,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isHurt = false;
     public bool isDead = false;
 
+    private void Start() {
+        Time.timeScale = 1f;
+    }
     void Update()
     { //pegar input do jogador
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;

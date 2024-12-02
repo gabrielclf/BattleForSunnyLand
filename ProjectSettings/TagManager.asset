@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstaculo
   - Projetil
+  - Gem
   layers:
   - Default
   - TransparentFX

@@ -169,7 +169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5ba58093f069443a5b5c7835a175ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawn: 3
 --- !u!19719996 &168558410
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -20044,6 +20043,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3aa94775db05e67419b659f9ddada943, type: 3}
+--- !u!4 &752033949 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1607551843064463321, guid: 3aa94775db05e67419b659f9ddada943, type: 3}
+  m_PrefabInstance: {fileID: 752033948}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &760053435
 GameObject:
   m_ObjectHideFlags: 0
@@ -20057,6 +20061,10 @@ GameObject:
   - component: {fileID: 760053438}
   - component: {fileID: 760053440}
   - component: {fileID: 760053439}
+  - component: {fileID: 760053444}
+  - component: {fileID: 760053443}
+  - component: {fileID: 760053442}
+  - component: {fileID: 760053441}
   m_Layer: 6
   m_Name: PurpleOgreBoss
   m_TagString: Obstaculo
@@ -20224,6 +20232,68 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3939819, y: 1.9424322}
   m_EdgeRadius: 0
+--- !u!114 &760053441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760053435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd945c29090710c4393dc217b1d0b632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 760053438}
+  maxHP: 120
+  hpAtual: 120
+  healthBar: {fileID: 1927071753}
+  defeat: {fileID: 760053435}
+  proxFase: {fileID: 1927071752}
+--- !u!114 &760053442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760053435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc594608b9af0944ea51b210b20415d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &760053443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760053435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4e2642358e83641a1483ea14153793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 752033949}
+  isFlip: 0
+--- !u!114 &760053444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760053435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0893bb94494414f893a1139b635f45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 1
+  attackOffset: {x: 0, y: 0, z: 0}
+  attackRange: 3
+  attackMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &813399025
 GameObject:
   m_ObjectHideFlags: 0
@@ -20255,7 +20325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2966063518f80478c968d1eea907ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 752033949}
   offset: {x: 0, y: 2, z: -1.5}
   smoothSpeed: 0.125
 --- !u!81 &813399027
@@ -22472,6 +22542,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1927071752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930315217925864003, guid: c342f5fef56b8b3489f0736874a8aa61, type: 3}
+  m_PrefabInstance: {fileID: 1927071747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1927071753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6537723743263628833, guid: c342f5fef56b8b3489f0736874a8aa61, type: 3}
+  m_PrefabInstance: {fileID: 1927071747}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d8c11f297d93849b6d5965cf94532a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

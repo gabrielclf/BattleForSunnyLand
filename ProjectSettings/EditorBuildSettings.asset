@@ -39,9 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BossRoom5.unity
     guid: faff000ff3005e247bfc4a43b16c91a3
   - enabled: 1
-    path: Assets/Scenes/GameOverLose.unity
-    guid: c58f45efd4bf3534b8158f98435ee3a0
-  - enabled: 1
     path: Assets/Scenes/GameOverWin.unity
     guid: 030a46f25e227364f8bac946663c998c
+  - enabled: 1
+    path: Assets/Scenes/GameOverLose.unity
+    guid: c58f45efd4bf3534b8158f98435ee3a0
   m_configObjects: {}

@@ -10,7 +10,7 @@ public class PlayerLife : MonoBehaviour
     public Animator animator;
     public static int hp = 3; //quantidade de hits que pode tomar antes de perder uma via
     public GameObject hit1, hit2, hit3;
-    public int vidas = 3;//se chegar a 0 = gameover
+    public static int vidas = 3;//se chegar a 0 = gameover
     [SerializeField] private TextMeshProUGUI contadorVidas;
 
     // Start is called before the first frame update
@@ -52,11 +52,14 @@ public class PlayerLife : MonoBehaviour
         }
     }
     void OnTriggerEnter2D(Collider2D detect)
-    {
+    {   
+        if (detect.CompareTag("Gem")){
+            MenuPausa.JogoPausado = true;
+            Time.timeScale = 0f;
+        }
         if (vidas <= 0)
         {
-
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("GameOverLose");
         }
 
         if (detect.CompareTag("Obstaculo") && hp > 0)
@@ -66,7 +69,7 @@ public class PlayerLife : MonoBehaviour
             PlayerHitPoints(hp);
             StartCoroutine("Hurt");
         }
-        else
+        else if (!(detect.CompareTag("Gem")))
         {
             vidas = Int32.Parse(contadorVidas.text) - 1;
             contadorVidas.text = vidas.ToString();

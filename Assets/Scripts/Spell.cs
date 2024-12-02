@@ -8,7 +8,7 @@ public class Spell : MonoBehaviour
     [SerializeField] private float speed = 20f;
     [SerializeField] private Rigidbody2D rb;
 
-    [SerializeField] private int dano = 10;
+    [SerializeField] private int dano = 50;
     [SerializeField] GameObject vfxImpacto;
 
 
