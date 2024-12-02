@@ -7,9 +7,9 @@
 * Barra de espaço para pular;
 * Teclas [Z] ou [X] para atirar.
 ---------------------------------------------------------------------------------------------------
-* Link para download do jogo: TBD
+# Link para download do jogo: TBD
 ---------------------------------------------------------------------------------------------------
-* Links para vídeo de demonstração do jogo
+#  Links para vídeo de demonstração do jogo
  
 * Demo 01 (Menus Iniciais e Ato1+Boss1) : https://youtu.be/uH3PUUEmed8
 ---------------------------------------------------------------------------------------------------
