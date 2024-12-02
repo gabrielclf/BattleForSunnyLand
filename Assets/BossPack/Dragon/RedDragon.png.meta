@@ -3,7 +3,7 @@ guid: 0e0c49562085468e8b180291b8414bf8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +142,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,847 +155,1205 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: RedDragon_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68913a6e4cf988841b392f9687dfd6b2
-      internalID: 1740535230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40ccaf9485aaeb9488cc5f493d21b35a
-      internalID: -1219509658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39946b4d4d1455042bc3ad1531b9988c
-      internalID: 2035171430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 768
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cf76760e77940948b875ef59276c335
-      internalID: -935993059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Projectile_0
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 768
-        width: 128
-        height: 128
+        x: 552
+        y: 824
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3c6b03cfd14a894d86c6686799272e5
-      internalID: -341134305
+      spriteID: 5c3c0ed32f5d5064998cece9ec0cee38
+      internalID: 1820505784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Projectile_1
+      name: RedDragon_1
       rect:
         serializedVersion: 2
-        x: 640
-        y: 768
-        width: 128
-        height: 128
+        x: 679
+        y: 824
+        width: 33
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be3256213f43b8d43a87450e2ecfbf22
-      internalID: 1710350945
+      spriteID: 0f7bc821e813db040b9ba23ceddd8ff3
+      internalID: 2097422016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_0
+      name: RedDragon_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 25
+        y: 768
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3664443a5b3294249a83ffcb4586129d
+      internalID: -1552059629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 768
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861a56b2175458347b388f1619bb08b1
+      internalID: 1711628859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 768
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f928f0a755f7d44b8d653c4906b990d
+      internalID: 1422348328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 768
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c03e1e5701c37248bba0f472c66c88b
+      internalID: 642340267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_6
+      rect:
+        serializedVersion: 2
+        x: 28
         y: 640
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c19c9b93150de489edd9ac518d95cc
-      internalID: 1599829857
+      spriteID: a13beb42a141be94c924ef95430f4fe4
+      internalID: -479949680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_1
+      name: RedDragon_7
       rect:
         serializedVersion: 2
-        x: 128
+        x: 152
         y: 640
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e599309046bd46941aeb58c942c48796
-      internalID: 1249533364
+      spriteID: d317ece16fd15194db488e60e38fb838
+      internalID: -308731080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_2
+      name: RedDragon_8
       rect:
         serializedVersion: 2
-        x: 256
+        x: 279
         y: 640
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 892d5e0085ab96d42af4131ab5ed9097
-      internalID: -1540566767
+      spriteID: 0eb3b3f6e2ee7254e966b46405daea5d
+      internalID: 330661400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ready_3
+      name: RedDragon_9
       rect:
         serializedVersion: 2
-        x: 384
+        x: 410
         y: 640
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e606ad083d110c4294252884e118bbb
-      internalID: -612471574
+      spriteID: b93f012dd11f4b94496c87c2cbe30167
+      internalID: 849381322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_0
+      name: RedDragon_10
       rect:
         serializedVersion: 2
-        x: 0
+        x: 26
         y: 512
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fff75b2eca7f644bc1c3d07e25022c
-      internalID: -558461130
+      spriteID: 0dd089f86226f004292ce2bf2c181047
+      internalID: 1859678846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_1
+      name: RedDragon_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 155
         y: 512
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ee33f4c61de70499310fae0cd188f7
-      internalID: 998643852
+      spriteID: 43c1fe4f8648da5469a66b33dd19f574
+      internalID: 767954591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_2
+      name: RedDragon_12
       rect:
         serializedVersion: 2
-        x: 256
+        x: 283
         y: 512
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a922013c0bdc0a14d90d043f9340e7d8
-      internalID: -1768039378
+      spriteID: 8d4f9791510992d41ba1d50c5f5bf678
+      internalID: 1394792493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: RedDragon_13
       rect:
         serializedVersion: 2
-        x: 384
+        x: 413
         y: 512
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05b60ea7b249ea44da77331c8c9f8e2d
-      internalID: -1775160075
+      spriteID: cc1be581c2a80c64c87d713b445e4c9c
+      internalID: -50319032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_4
+      name: RedDragon_14
       rect:
         serializedVersion: 2
-        x: 512
+        x: 537
         y: 512
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53ada4df064bd844b6d474d5fc191a2
-      internalID: -1152648080
+      spriteID: 6f97da4ec705d4c40ba25993c23fdedc
+      internalID: 1411690894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_5
+      name: RedDragon_15
       rect:
         serializedVersion: 2
-        x: 640
+        x: 665
         y: 512
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c83b5326327c09d4a87e6c2fbe584a23
-      internalID: -176365743
+      spriteID: cd4faabd9e2bd954e920f6253ca20123
+      internalID: -1280335664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_0
+      name: RedDragon_16
       rect:
         serializedVersion: 2
-        x: 0
+        x: 28
         y: 384
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8645a3a077737ab45a462bb3eff0b46d
-      internalID: -371974518
+      spriteID: ef94823b5b379c740976e8b583493330
+      internalID: 789014083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_1
+      name: RedDragon_17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 152
         y: 384
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32befc1fbc976904891e34eae4d61ad5
-      internalID: -1385904201
+      spriteID: 5ade4b5aa69f241439b0923736c0740a
+      internalID: -831770097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_2
+      name: RedDragon_18
       rect:
         serializedVersion: 2
-        x: 256
+        x: 279
         y: 384
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6d67d3cea548e34aa7b9060cb071e92
-      internalID: -400770547
+      spriteID: b50e03b8eeda76443acf4c7e3b8ceb06
+      internalID: -2135184587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_3
+      name: RedDragon_19
       rect:
         serializedVersion: 2
-        x: 384
+        x: 407
         y: 384
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 76
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9574d3638c0c39a40bf2baa32b793556
-      internalID: -2021326081
+      spriteID: d6f26d424bc69f34e8618e8412600054
+      internalID: -1096358134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4
+      name: RedDragon_20
       rect:
         serializedVersion: 2
-        x: 512
+        x: 478
+        y: 420
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bac574e22eac3439e4d848bfe33ae4
+      internalID: 136284743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 424
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452c420001d96e84f92812fa002e036e
+      internalID: -1683792225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 423
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dbad202c52a684492972bc97648e44
+      internalID: 1175083155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_23
+      rect:
+        serializedVersion: 2
+        x: 536
         y: 384
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 84
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2424e852bd600784191a2215ea980cb0
-      internalID: 1021590853
+      spriteID: a797d8165fc29c64593bd4a442487cc3
+      internalID: 1919671954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_5
+      name: RedDragon_24
       rect:
         serializedVersion: 2
-        x: 640
+        x: 614
+        y: 398
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ea88689a5cf04693a989179a51e8b
+      internalID: 53165713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_25
+      rect:
+        serializedVersion: 2
+        x: 665
         y: 384
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caeea423d2e1e384ea5e2878d0e0e1e7
-      internalID: 421781986
+      spriteID: b80a5525adfd385449d5ebedb9e7a269
+      internalID: -1512556646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_0
+      name: RedDragon_26
       rect:
         serializedVersion: 2
-        x: 1
+        x: 606
+        y: 384
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b674bc896b1bf49bbfeda85f5602da
+      internalID: -563976738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_27
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 388
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd107a86b9b4b6847adffb884ede7e59
+      internalID: 974910887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_28
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 388
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83184d60525a09749bd9ebd3cfb3187c
+      internalID: -65449572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_29
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 396
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d186222421f6ac4795daeb56854f5bf
+      internalID: 15919079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_30
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 390
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d924d576852e54cb0ee46746547c1d
+      internalID: 1766181209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_31
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 397
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd40d24795a1018498db6e4a1be23730
+      internalID: -2134726172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_32
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 384
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10328a341b38c04fa4465377ddcf9af
+      internalID: 1296331770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_33
+      rect:
+        serializedVersion: 2
+        x: 24
         y: 256
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab1dfc23f4159ef41b1c10edd2ffbabb
-      internalID: 1412592379
+      spriteID: a81a250a5dbddb14abe70fdd79369153
+      internalID: 156246154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_1
+      name: RedDragon_34
       rect:
         serializedVersion: 2
-        x: 128
+        x: 152
         y: 256
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6679465bde6ea564d8ab8c5f4ccf0984
-      internalID: 544446998
+      spriteID: 0d845fecce5b8a24e82308960fbfb7bc
+      internalID: -812473814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_2
+      name: RedDragon_35
       rect:
         serializedVersion: 2
-        x: 256
+        x: 281
         y: 256
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e8ad4ad82ab6245b03389eb183dc2b
-      internalID: 1470427165
+      spriteID: b37d0000d9f5a184c98a8ab6510a81ce
+      internalID: -162016325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_3
+      name: RedDragon_36
       rect:
         serializedVersion: 2
-        x: 384
+        x: 407
         y: 256
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 72
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ebb0bf439eeb348aa28e3409fe5f81
-      internalID: -788360624
+      spriteID: 925f4655cc0172b48afd8f026370f7be
+      internalID: 1967323775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_4
+      name: RedDragon_37
       rect:
         serializedVersion: 2
-        x: 512
+        x: 533
         y: 256
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 76
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b4fff590ccad5542929a61d515ac14d
-      internalID: -1642300561
+      spriteID: 49584b7bae3991d40bb977a6545b0a18
+      internalID: -1343926357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_5
+      name: RedDragon_38
       rect:
         serializedVersion: 2
-        x: 640
+        x: 661
         y: 256
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 76
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc60be5361355741aecda8d25cbf6f4
-      internalID: -64957926
+      spriteID: 654df5dada6761b4498316f962f05552
+      internalID: 1342493121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_0
+      name: RedDragon_39
       rect:
         serializedVersion: 2
-        x: 0
+        x: 28
         y: 128
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c403098674be68e41ad6bf273197905b
-      internalID: 870851061
+      spriteID: b7efcfdc8b6b8604c85df22382453d16
+      internalID: -1407522877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_1
+      name: RedDragon_40
       rect:
         serializedVersion: 2
-        x: 128
+        x: 152
         y: 128
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c9d348e8ab3d5a49a609397ee31761b
-      internalID: 2041340130
+      spriteID: 3cb6eee8ed7c7244a9f02a412f3dc15e
+      internalID: 1034003457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_2
+      name: RedDragon_41
       rect:
         serializedVersion: 2
-        x: 256
+        x: 279
         y: 128
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b232de139e363504c8470eb163b14ae8
-      internalID: 1326509612
+      spriteID: 62de5b91898b8ff46acac9dc7a5d2c5a
+      internalID: -876422945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_3
+      name: RedDragon_42
       rect:
         serializedVersion: 2
-        x: 384
+        x: 407
         y: 128
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 100
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b3830ca22eb28a4aaad1cd432109724
-      internalID: 1798496547
+      spriteID: 54255775583ee6642afb9298678b56ab
+      internalID: -1302582424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_4
+      name: RedDragon_43
       rect:
         serializedVersion: 2
-        x: 512
+        x: 536
         y: 128
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 104
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07bc108f5f7e37e43a30488126ea4ee6
-      internalID: -473751976
+      spriteID: 2b5069d4ef535a641bcb2fad4997f74f
+      internalID: -1859976763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire_5
+      name: RedDragon_44
       rect:
         serializedVersion: 2
-        x: 640
-        y: 127
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 665
+        y: 128
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8ffa802274fa24d83a0db41b208b5d
-      internalID: -447831967
+      spriteID: 5b3149b30d71eea43b48724420063f89
+      internalID: -1020331452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_0
+      name: RedDragon_45
       rect:
         serializedVersion: 2
-        x: 0
+        x: 740
+        y: 140
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05677b0f96c6d1245bca5803687bfcf8
+      internalID: -1192608170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_46
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 140
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081999d5833182c498d9609eab9f4f75
+      internalID: 1805807015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_47
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 131
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99dd76755306124f9d57ff30ac05823
+      internalID: 1161451348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_48
+      rect:
+        serializedVersion: 2
+        x: 28
         y: 0
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0a107ffc2482464a8a66c744c2a5e17
-      internalID: -17514963
+      spriteID: ae41bbcefbed1a549917f4bafc904a1b
+      internalID: -1163215633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_1
+      name: RedDragon_49
       rect:
         serializedVersion: 2
-        x: 128
+        x: 152
         y: 0
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45d6c060d7c72f4db1277fcb4e40da5
-      internalID: 1110528672
+      spriteID: 9fc60fb2f7d4b9b41ab7a8a40d3229fb
+      internalID: -729319481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_2
+      name: RedDragon_50
       rect:
         serializedVersion: 2
-        x: 256
+        x: 279
         y: 0
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74ae2d6d66c1e3644bddaa8dce31f083
-      internalID: -265684251
+      spriteID: b278a38dc4aab2945a013616fc03418f
+      internalID: 1223674613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_3
+      name: RedDragon_51
       rect:
         serializedVersion: 2
-        x: 384
+        x: 407
         y: 0
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 89
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d98955fdcfdbc47aeaa1ddfd3aa178
-      internalID: -1041255580
+      spriteID: be15b71da041fcc498402766cc257aea
+      internalID: 490621380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_4
+      name: RedDragon_52
       rect:
         serializedVersion: 2
-        x: 512
+        x: 535
         y: 0
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 99
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a50b91c9400c9564b9844e0f401c8431
-      internalID: 1188342725
+      spriteID: 91148a5e70968754a8b3d61919ad8326
+      internalID: 2022647681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Burn_5
+      name: RedDragon_53
       rect:
         serializedVersion: 2
-        x: 640
+        x: 666
         y: 0
-        width: 128
-        height: 128
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c32b157dc92544f8f62cc4f0c87e16
-      internalID: 2085800660
+      spriteID: e2d4cd4b185ae774c88fd064458d1e8e
+      internalID: -683242385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_54
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 27
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84b93d9c4f42b142ac898ba1d8449d9
+      internalID: 1831067355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_55
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 5
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a0936ad65d2fc4e99ee3615b11d2c5
+      internalID: -12055655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedDragon_56
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 0
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213b38c3bd9c35547b6e296ef173bd56
+      internalID: 1942313437
       vertices: []
       indices: 
       edges: []
@@ -1003,35 +1369,65 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack_0: -371974518
-      Attack_1: -1385904201
-      Attack_2: -400770547
-      Attack_3: -2021326081
-      Attack_4: 1021590853
-      Attack_5: 421781986
-      Death_0: 1412592379
-      Death_1: 544446998
-      Death_2: 1470427165
-      Death_3: -788360624
-      Death_4: -1642300561
-      Death_5: -64957926
-      Idle_0: 1740535230
-      Idle_1: -1219509658
-      Idle_2: 2035171430
-      Idle_3: -935993059
-      Ready_0: 1599829857
-      Ready_1: 1249533364
-      Ready_2: -1540566767
-      Ready_3: -612471574
-      Run_0: -558461130
-      Run_1: 998643852
-      Run_2: -1768039378
-      Run_3: -1775160075
-      Run_4: -1152648080
-      Run_5: -176365743
-  spritePackingTag: 
+      RedDragon_0: 1820505784
+      RedDragon_1: 2097422016
+      RedDragon_10: 1859678846
+      RedDragon_11: 767954591
+      RedDragon_12: 1394792493
+      RedDragon_13: -50319032
+      RedDragon_14: 1411690894
+      RedDragon_15: -1280335664
+      RedDragon_16: 789014083
+      RedDragon_17: -831770097
+      RedDragon_18: -2135184587
+      RedDragon_19: -1096358134
+      RedDragon_2: -1552059629
+      RedDragon_20: 136284743
+      RedDragon_21: -1683792225
+      RedDragon_22: 1175083155
+      RedDragon_23: 1919671954
+      RedDragon_24: 53165713
+      RedDragon_25: -1512556646
+      RedDragon_26: -563976738
+      RedDragon_27: 974910887
+      RedDragon_28: -65449572
+      RedDragon_29: 15919079
+      RedDragon_3: 1711628859
+      RedDragon_30: 1766181209
+      RedDragon_31: -2134726172
+      RedDragon_32: 1296331770
+      RedDragon_33: 156246154
+      RedDragon_34: -812473814
+      RedDragon_35: -162016325
+      RedDragon_36: 1967323775
+      RedDragon_37: -1343926357
+      RedDragon_38: 1342493121
+      RedDragon_39: -1407522877
+      RedDragon_4: 1422348328
+      RedDragon_40: 1034003457
+      RedDragon_41: -876422945
+      RedDragon_42: -1302582424
+      RedDragon_43: -1859976763
+      RedDragon_44: -1020331452
+      RedDragon_45: -1192608170
+      RedDragon_46: 1805807015
+      RedDragon_47: 1161451348
+      RedDragon_48: -1163215633
+      RedDragon_49: -729319481
+      RedDragon_5: 642340267
+      RedDragon_50: 1223674613
+      RedDragon_51: 490621380
+      RedDragon_52: 2022647681
+      RedDragon_53: -683242385
+      RedDragon_54: 1831067355
+      RedDragon_55: -12055655
+      RedDragon_56: 1942313437
+      RedDragon_6: -479949680
+      RedDragon_7: -308731080
+      RedDragon_8: 330661400
+      RedDragon_9: 849381322
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

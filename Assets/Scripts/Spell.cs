@@ -18,7 +18,7 @@ public class Spell : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D hit) {
-        Inimigo inimigo = hit.GetComponent<Inimigo>();
+        Inimigo_Vida inimigo = hit.GetComponent<Inimigo_Vida>();
         if (inimigo != null){
             inimigo.LevarDano(dano);
         }
